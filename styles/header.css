@@ -1,19 +1,20 @@
-.body {
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+    --primary-header-color: #2874f1;
+    --font-weight: 800;
+    --header-font-size: 16px;
+    --secondary-header-color: #ffffff;
 }
-
 .header {
-    background-color: #2874f1;
+    background-color: var(--primary-header-color);
     height: 56px;
     width: 100%;
     box-sizing: border-box;
-    /* border: 2px solid black; */
     padding: 10px;
 }
 
 .nav__navbar {
     gap: 2%;
+    min-width: 350px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -28,18 +29,16 @@
     max-width: 100%;
     height: 100%;
     display: flex;
-    /* justify-content: flex-start; */
     align-items: center;
     gap: 8%;
-    /* align-items: center; */
 }
 
 .right-section__more {
     max-width: 100%;
     display: flex;
-    font-weight: bold;
+    font-weight: var(--font-weight);
     align-items: center;
-    color: white;
+    color: var(--secondary-header-color);
 }
 
 .navbar__left-section {
@@ -62,7 +61,7 @@ input {
     flex: 1;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background-color: var(--secondary-header-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,24 +70,23 @@ input {
 
 .login-btn {
     border: none;
-    font-weight: bold;
-    background-color: white;
-    color: #2874f1;
-    font-size: 17px;
+    font-weight: var(--font-weight);
+    background-color: var(--secondary-header-color);
+    color: var(--primary-header-color);
+    font-size: var(--header-font-size);
     width: 10rem;
     height: 85%;
 }
 
 .right-section__cart {
     max-width: 100%;
-    font-size: 17px;
-    color: white;
-    font-weight: bold;
+    font-size: var(--header-font-size);
+    color: var(--secondary-header-color);
+    font-weight: var(--font-weight);
     display: flex;
     justify-items: center;
     align-items: center;
     box-sizing: border-box;
-    /* align-items: center; */
 }
 
 @media (max-width:495px) {
