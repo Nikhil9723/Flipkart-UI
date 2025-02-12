@@ -7,7 +7,8 @@
 .header {
     background-color: var(--primary-header-color);
     height: 56px;
-    width: 100%;
+    /* width: 100%; */
+    flex: 1;
     box-sizing: border-box;
     padding: 10px;
 }
@@ -39,6 +40,7 @@
     font-weight: var(--font-weight);
     align-items: center;
     color: var(--secondary-header-color);
+    cursor: pointer;
 }
 
 .navbar__left-section {

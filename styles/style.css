@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    max-width: 120rem;
+    /* max-width: 120rem; */
     margin: 0%;
     padding: 0%;
     font-family: var(--font-family);
