@@ -6,8 +6,6 @@
     --product-offer-color: #488d49;
     --offer-name-color: #a4a4a4;
     --black-color: #000000;
-    --display-flex: flex;
-    --justify-align-center: center;
 }
 
 .main-containor{
@@ -20,9 +18,9 @@
     max-width: 100%;
     gap: 0.7rem;
     background-color: var(--primary-main-bg-color);
-    display: var(--display-flex);
-    justify-content: var(--justify-align-center);
-    align-items: var(--justify-align-center);
+    display:flex;
+    justify-content: center;
+    align-items: center;
     overflow: auto;
 }
 
@@ -32,11 +30,11 @@ a:link {
 
 .main__products--section {
     padding: 16px 16px 16px 24px;
-    display: var(--display-flex);
+    display:flex;
     min-width: 90px;
     flex-direction: column;
-    align-items: var(--justify-align-center);
-    justify-content: var(--justify-align-center);
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -51,8 +49,8 @@ a:link {
     font-weight: var(--font-weight);
     font-size: 14px;
     flex-direction: row;
-    display: var(--display-flex);
-    align-items: var(--justify-align-center);
+    display:flex;
+    align-items: center;
     justify-content: center;
     gap: 2px;
 }
@@ -66,7 +64,7 @@ a:link {
     height: 369px;
     max-width: 1600px;
     margin: 18px auto;
-    display: var(--display-flex);
+    display:flex;
     justify-content: space-between;
     gap: 1rem;
 }
@@ -74,9 +72,9 @@ a:link {
 .container-2__deals-title {
     padding: 10px;
     background-color: var(--primary-main-bg-color);
-    display: var(--display-flex);
+    display:flex;
     justify-content: space-between;
-    align-items: var(--justify-align-center);
+    align-items: center;
     border-bottom: 1pt solid #b7b1bb;
 }
 
@@ -85,7 +83,7 @@ a:link {
     background-color: var(--primary-main-bg-color);
     overflow: hidden;
     /* flex: 1; */
-    display: var(--display-flex);
+    display:flex;
     flex-direction: column;
 }
 
@@ -93,9 +91,9 @@ a:link {
     gap: 15px;
     font-size: 22px;
     letter-spacing: var(--letter-spacing);
-    display: var(--display-flex);
-    justify-content: var(--justify-align-center);
-    align-items: var(--justify-align-center);
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #deals-title__title {
@@ -126,17 +124,17 @@ a:link {
     letter-spacing: var(--letter-spacing);
     gap: 1.1rem;
     padding-top: 16px;
-    display: var(--display-flex);
+    display:flex;
     justify-content: space-evenly;
 }
 
 .products__details {
     min-width: 171px;
     width: 100%;
-    display: var(--display-flex);
+    display:flex;
     flex-direction: column;
-    align-items: var(--justify-align-center);
-    justify-content: var(--justify-align-center);
+    align-items: center;
+    justify-content: center;
     font-size: 13px;
     gap: 0.5rem;
     /* padding-top: 20px; */
@@ -155,9 +153,9 @@ a:link {
 
 .product-brands {
     color: var(--black-color);
-    display: var(--display-flex);
-    justify-content: var(--justify-align-center);
-    align-items: var(--justify-align-center);
+    display:flex;
+    justify-content: center;
+    align-items: center;
     font-weight: var(--font-weight);
 }
 
@@ -182,10 +180,10 @@ a:link {
 }
 
 .text-align {
-    display: var(--display-flex);
+    display:flex;
     flex-direction: column;
-    justify-content: var(--justify-align-center);
-    align-items: var(--justify-align-center);
+    justify-content: center;
+    align-items: center;
     gap: 12px;
 }
 
@@ -200,8 +198,8 @@ a:link {
     z-index: 1;
     height: 5.7rem;
     background-color: var(--primary-main-bg-color);
-    display: var(--display-flex);
-    align-items: var(--justify-align-center);
+    display:flex;
+    align-items: center;
     box-sizing: border-box;
     box-shadow:  -1px 0px 20px 1px #808080;
     position: absolute;
@@ -216,7 +214,7 @@ a:link {
 .product-style {
     letter-spacing: var(--letter-spacing);
     gap: 0.5rem;
-    display: var(--display-flex);
+    display:flex;
     justify-content: space-evenly;
 }
 
@@ -262,10 +260,11 @@ a:link {
     }
 
     .product-style {
-        padding: 20px -30px 20px 30px;
+        padding: 20px 30px 20px 30px;
+        box-sizing: border-box;
         width: 100%;
         flex: 1;
-        display: var(--display-flex);
+        display:flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #e0e0e0;;
