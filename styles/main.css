@@ -227,6 +227,7 @@ a:link {
 @media (max-width:800px) {
     .main__container-2 {
         display: inline;
+        margin: 18px;
     }
 
     .left-sec__products {
