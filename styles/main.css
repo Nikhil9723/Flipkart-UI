@@ -72,7 +72,7 @@ a:link {
 }
 
 .container-2__deals-title {
-    padding: 10px;
+    padding: 14px;
     background-color: var(--primary-main-bg-color);
     display: var(--display-flex);
     justify-content: space-between;
@@ -131,13 +131,14 @@ a:link {
 }
 
 .products__details {
-    /* min-width: 250px; */
+    min-width: 171px;
     width: 100%;
     display: var(--display-flex);
     flex-direction: column;
     align-items: var(--justify-align-center);
     justify-content: var(--justify-align-center);
     font-size: 13px;
+    gap: 0.5rem;
     /* padding-top: 20px; */
 }
 
