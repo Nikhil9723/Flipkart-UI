@@ -72,7 +72,7 @@ a:link {
 }
 
 .container-2__deals-title {
-    padding: 14px;
+    padding: 10px;
     background-color: var(--primary-main-bg-color);
     display: var(--display-flex);
     justify-content: space-between;
@@ -262,7 +262,7 @@ a:link {
     }
 
     .product-style {
-        padding: 20px 0 20px 30px;
+        padding: 20px -30px 20px 30px;
         width: 100%;
         flex: 1;
         display: var(--display-flex);
