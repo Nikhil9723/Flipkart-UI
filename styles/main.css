@@ -136,7 +136,10 @@ a:link {
 #shop-now-style {
     font-size: 12px;
     color: #958a9d;
+    cursor: pointer;
 }
+
+
 
 .view-all-btn {
     border: none;
@@ -215,6 +218,7 @@ a:link {
 
 .offer-name {
     color: var(--offer-name-color);
+    cursor: pointer;
 }
 
 .offer-name:hover{
