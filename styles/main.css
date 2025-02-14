@@ -2,7 +2,7 @@
     --primary-main-bg-color: #ffffff;
     --btn-main-color: #2874f1;
     --letter-spacing: 0.2px;
-    --font-weight-large-large: 600;
+    --font-weight-large-large: 700;
     --font-weight-medium: 500;
     --product-offer-color: #488d49;
     --offer-name-color: #a4a4a4;
@@ -193,7 +193,7 @@ a:link {
     display:flex;
     justify-content: center;
     align-items: center;
-    font-weight: var(--font-weight);
+    font-weight: var(--font-weight-medium);
 }
 
 .product-brands:hover {
