@@ -1,6 +1,6 @@
 :root {
     --body-bg-color: #f1f2f4;
-    --font-family: Arial, Helvetica, sans-serif;
+    --font-family: sans-serif, Helvetica, sans-serif;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -34,4 +34,5 @@ body {
     font-family: var(--font-family);
     background-color: var(--body-bg-color);
 	min-width: 320px;
+	font-family:  "Montserrat", serif;
 }

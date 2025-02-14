@@ -2,7 +2,8 @@
     --primary-main-bg-color: #ffffff;
     --btn-main-color: #2874f1;
     --letter-spacing: 0.2px;
-    --font-weight: 800;
+    --font-weight-large-large: 600;
+    --font-weight-medium: 500;
     --product-offer-color: #488d49;
     --offer-name-color: #a4a4a4;
     --black-color: #000000;
@@ -56,7 +57,8 @@ a:link {
 .products__title--style{
     min-width: 100%;
     text-align: center;
-    font-weight: var(--font-weight);
+    font-weight:bolder;
+    font-weight: var(--font-weight-medium);
     font-size: 14px;
     flex-direction: row;
     display:flex;
@@ -152,7 +154,7 @@ a:link {
 .left-sec__products {
     width: 100%;
     overflow: auto;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     box-sizing: border-box;
     letter-spacing: var(--letter-spacing);
     gap: 1.1rem;
@@ -165,7 +167,7 @@ a:link {
 
 
 .products__details {
-    min-width: 171px;
+    min-width: 176px;
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -257,6 +259,7 @@ a:link {
 
 .main__container-3 {
     background-color: var(--primary-main-bg-color);
+    box-sizing: border-box;
     margin: 0rem 0.75rem;
     max-width: 1600px;
     height: 390px;
@@ -267,6 +270,8 @@ a:link {
 
 .container-3__products-style {
     width: 100%;
+    padding: 10px 4px 10px 10px;
+    box-sizing: border-box;
     overflow: auto;
     letter-spacing: var(--letter-spacing);
     gap: 2.1rem;
@@ -310,11 +315,12 @@ a:link {
         gap: 0;
     }
     .container-3__products-style {
+        width: 100%;
         flex-direction: column;
         align-items: flex-start;
         gap: 0;
-        border-bottom: 1px solid black;
     }
+
     .container-3__products-style > a {
         width: 100%;
     }
