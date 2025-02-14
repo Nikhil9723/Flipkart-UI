@@ -5,12 +5,14 @@
     --secondary-header-color: #ffffff;
 }
 .header {
+    position: fixed;
     background-color: var(--primary-header-color);
     height: 56px;
-    /* width: 100%; */
     flex: 1;
     box-sizing: border-box;
     padding: 10px;
+    width: 100%;
+    z-index: 2;
 }
 
 .nav__navbar {
