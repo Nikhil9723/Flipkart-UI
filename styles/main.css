@@ -14,7 +14,11 @@
     --grey-color: #808080;
 }
 
-
+.main {
+    width: 100%;
+    max-width: 120rem;
+	margin: auto;
+}
 #new-beginning:hover {
     filter: brightness(90%);
 }
@@ -26,9 +30,11 @@
 
 .main__products::-webkit-scrollbar { width: 0;}
 .main__products {
+    max-width: 1600px;
+    margin: auto;
     min-height: 126px;
     box-sizing: border-box;
-    max-width: 100%;
+    width: 100%;
     gap: 0.7rem;
     background-color: var(--primary-main-bg-color);
     display: flex;
@@ -84,7 +90,7 @@ a:link {
 
 .main__container-2 {
     margin: 0rem 0.75rem;
-    width: 100%;
+    width: 90%;
     height: 369px;
     max-width: 1600px;
     margin: 18px auto;
@@ -279,6 +285,7 @@ a:link {
     margin: 0rem 0.75rem;
     max-width: 1600px;
     height: 380px;
+    width: 90%;
     margin: 1vw auto;
     gap: 1rem;
     flex: 1;
