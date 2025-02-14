@@ -5,21 +5,22 @@
     --secondary-header-color: #ffffff;
 }
 .header {
-    position: fixed;
+    position: sticky;
+    top: 0%;
     background-color: var(--primary-header-color);
+}
+
+.navbar {
+    position: sticky;
+    background-color: var(--primary-header-color);
+    max-width: 120rem;
+    margin: auto;
     height: 56px;
     flex: 1;
     box-sizing: border-box;
     padding: 10px;
     width: 100%;
     z-index: 2;
-    /* max-width: 120rem; */
-    /* margin: auto; */
-}
-
-.navbar {
-    max-width: 120rem;
-    margin: auto;
 }
 
 .nav__navbar {

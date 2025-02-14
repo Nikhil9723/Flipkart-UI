@@ -24,7 +24,6 @@
 }
 
 .main-containor{
-    padding-top: 56px;
     box-sizing: border-box;
 }
 
@@ -98,7 +97,6 @@ a:link {
     justify-content: space-between;
     gap: 1rem;
 }
-
 
 .container-2__deals-title {
     padding: 14px;
@@ -330,6 +328,9 @@ a:link {
     .main__container-2 {
         display: inline;
         margin: 18px;
+    }
+    .main__container-3 {
+        width: 100%;
     }
 
     .left-sec__products {
