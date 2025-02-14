@@ -69,8 +69,14 @@ input {
     background-color: var(--secondary-header-color);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     border-radius: 2px;
+}
+
+.navbar__search-bar > a {
+    width: 24px;
+    height: 24px;
 }
 
 .login-btn {
@@ -96,8 +102,11 @@ input {
 
 @media (max-width:495px) {
     .navbar__search-bar{
-        display:none
+        display:none;
     } 
+    .navbar__left-section  {
+        width: fit-content;
+    }
 }
 
 @media (max-width:495px) {

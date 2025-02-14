@@ -7,6 +7,11 @@
     --product-offer-color: #488d49;
     --offer-name-color: #a4a4a4;
     --black-color: #000000;
+    --bg-border-color: #b7b1bb;
+    --scroll-aero-bg-color: #Fffff4;
+    --primary-box-shadow-color: #4d4c4c;
+    --secondary-color: #958a9d;
+    --grey-color: #808080;
 }
 
 
@@ -19,6 +24,7 @@
     box-sizing: border-box;
 }
 
+.main__products::-webkit-scrollbar { width: 0;}
 .main__products {
     min-height: 126px;
     box-sizing: border-box;
@@ -46,7 +52,7 @@ a:link {
     gap: 10px;
 }
 
-.left-aerow  {
+.left-arrow  {
     display: none;
 }
 
@@ -95,7 +101,7 @@ a:link {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1pt solid #b7b1bb;
+    border-bottom: 1pt solid var(--bg-border-color);
 }
 
 .container-2__left-sec {
@@ -130,12 +136,12 @@ a:link {
 
 #time-clock-text {
     font-size: 16px;
-    color: #958a9d;
+    color: var(--secondary-color);
 }
 
 #shop-now-style {
     font-size: 12px;
-    color: #958a9d;
+    color: var(--secondary-color);
     cursor: pointer;
 }
 
@@ -154,10 +160,11 @@ a:link {
 }
 
 .view-all-btn:hover {
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 2px 2px 5px var(--grey-color);
 }
 
 .left-sec__products::-webkit-scrollbar { width: 0;}
+
 
 .left-sec__products {
     width: 100%;
@@ -245,12 +252,12 @@ a:link {
     z-index: 1;
     height: 5.7rem;
     width: 2.6rem;
-    background-color: #Fffff4;
+    background-color: var(--scroll-aero-bg-color);
     display:flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    box-shadow:  -1px 10px 20px #4d4c4c;
+    box-shadow:  -1px 10px 20px var(--primary-box-shadow-color);
     border-radius: 3px 0px 0 3px;
     position: absolute;
     right: 0%;
@@ -276,6 +283,7 @@ a:link {
     gap: 1rem;
     flex: 1;
 }
+.container-3__products-style::-webkit-scrollbar { width: 0;}
 
 .container-3__products-style {
     width: 100%;
@@ -296,7 +304,7 @@ a:link {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1pt solid #b7b1bb;
+    border-bottom: 1pt solid var(--bg-border-color);
 }
 
 
@@ -351,7 +359,7 @@ a:link {
         display: none;
     }
 
-    .left-aerow {
+    .left-arrow {
         display: inline;
     }
 
