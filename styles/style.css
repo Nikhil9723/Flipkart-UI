@@ -1,3 +1,7 @@
+:root {
+    --body-bg-color: #f1f2f4;
+    --font-family: Arial, Helvetica, sans-serif;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,5 +29,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    font-family: Arial, Helvetica, sans-serif;
+    /* max-width: 120rem; */
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--font-family);
+    background-color: var(--body-bg-color);
 }
