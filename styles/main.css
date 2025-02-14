@@ -9,6 +9,11 @@
     --black-color: #000000;
 }
 
+
+#new-beginning:hover {
+    filter: brightness(90%);
+}
+
 .main-containor{
     padding-top: 56px;
     box-sizing: border-box;
