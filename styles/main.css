@@ -262,8 +262,8 @@ a:link {
     box-sizing: border-box;
     margin: 0rem 0.75rem;
     max-width: 1600px;
-    height: 390px;
-    margin: 2vw auto;
+    height: 380px;
+    margin: 1vw auto;
     gap: 1rem;
     flex: 1;
 }
