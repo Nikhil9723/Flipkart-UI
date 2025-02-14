@@ -70,6 +70,7 @@ a:link {
 }
 
 .main__container-2 {
+    margin: 0rem 0.75rem;
     width: 100%;
     height: 369px;
     max-width: 1600px;
@@ -83,16 +84,6 @@ a:link {
 .container-2__deals-title {
     padding: 14px;
     box-sizing: border-box;
-    background-color: var(--primary-main-bg-color);
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1pt solid #b7b1bb;
-}
-
-.container-3__deals-title {
-    box-sizing: border-box;
-    padding: 14px;
     background-color: var(--primary-main-bg-color);
     display:flex;
     justify-content: space-between;
@@ -266,16 +257,13 @@ a:link {
 
 .main__container-3 {
     background-color: var(--primary-main-bg-color);
-    width: 100%;
+    margin: 0rem 0.75rem;
     max-width: 1600px;
     height: 390px;
-    max-width: 1600px;
-    margin: 18px auto;
+    margin: 2vw auto;
     gap: 1rem;
     flex: 1;
 }
-
-/* .container-3__products-style::-webkit-scrollbar { width: 0;} */
 
 .container-3__products-style {
     width: 100%;
@@ -286,6 +274,17 @@ a:link {
     box-sizing: border-box;
     display:flex;
 }
+
+.container-3__deals-title {
+    box-sizing: border-box;
+    padding: 14px;
+    background-color: var(--primary-main-bg-color);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1pt solid #b7b1bb;
+}
+
 
 .left-sec__products > a {
     width: 100%;
