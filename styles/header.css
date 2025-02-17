@@ -8,6 +8,7 @@
     position: sticky;
     top: 0%;
     background-color: var(--primary-header-color);
+    z-index: 3;
 }
 
 .navbar {
