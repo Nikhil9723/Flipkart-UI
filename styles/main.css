@@ -27,7 +27,6 @@
     box-sizing: border-box;
 }
 
-.main__products::-webkit-scrollbar { width: 0;}
 .main__products {
     max-width: 1600px;
     margin: auto;
@@ -40,6 +39,7 @@
     justify-content: center;
     align-items: center;
     overflow: auto;
+    scrollbar-width: none;
 }
 
 a:link {
@@ -167,13 +167,9 @@ a:link {
     box-shadow: 2px 2px 5px var(--grey-color);
 }
 
-.left-sec__products::-webkit-scrollbar { width: 0;}
-
-
 .left-sec__products {
     width: 100%;
     overflow: auto;
-    /* overflow-y: hidden; */
     box-sizing: border-box;
     letter-spacing: var(--letter-spacing);
     gap: 1.1rem;
@@ -181,6 +177,7 @@ a:link {
     padding-bottom: 4px;
     display:flex;
     justify-content: space-evenly;
+    scrollbar-width: none;
 }
 
 
