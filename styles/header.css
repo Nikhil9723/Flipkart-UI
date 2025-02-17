@@ -1,16 +1,27 @@
 :root {
     --primary-header-color: #2874f1;
-    --font-weight: 800;
+    --font-weight: 600;
     --header-font-size: 16px;
     --secondary-header-color: #ffffff;
 }
 .header {
+    position: sticky;
+    top: 0%;
     background-color: var(--primary-header-color);
+    z-index: 3;
+}
+
+.navbar {
+    position: sticky;
+    background-color: var(--primary-header-color);
+    max-width: 120rem;
+    margin: auto;
     height: 56px;
-    /* width: 100%; */
     flex: 1;
     box-sizing: border-box;
     padding: 10px;
+    width: 100%;
+    z-index: 2;
 }
 
 .nav__navbar {
@@ -67,8 +78,14 @@ input {
     background-color: var(--secondary-header-color);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
     border-radius: 2px;
+}
+
+.navbar__search-bar > a {
+    width: 24px;
+    height: 24px;
 }
 
 .login-btn {
@@ -79,6 +96,7 @@ input {
     font-size: var(--header-font-size);
     width: 10rem;
     height: 85%;
+    cursor: pointer;
 }
 
 .right-section__cart {
@@ -94,8 +112,11 @@ input {
 
 @media (max-width:495px) {
     .navbar__search-bar{
-        display:none
+        display:none;
     } 
+    .navbar__left-section  {
+        width: fit-content;
+    }
 }
 
 @media (max-width:495px) {
